@@ -44,6 +44,13 @@ h1{
   margin-left: 1.5rem;
 }
 
+.icone{
+ width: 25px;
+ height: 25px;
+ align-self: center;
+ margin-right: 0.7rem;
+}
+
 .nickname {
   font-size: 70px;
   color: #0e0e10;
@@ -68,4 +75,43 @@ h1{
   width: 200px;
   height: 220px;
   margin-top: 0.5rem;
+}
+
+.description_card{
+  margin-top: 0.7rem;
+  margin-left: 0.7rem;
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  row-gap: 0.5rem;
+}
+
+table{
+  border-collapse: collapse;
+  margin-top: 0.8rem;
+  margin-left: 1.7rem;
+  z-index: 1;
+}
+
+th, td{
+  font-weight: normal;
+  border: 1px solid black;
+  padding: 2px;
+  text-align: center;
+}
+
+.wintitle{
+background-color:#00ff00;
+}
+
+.win{
+  background-color: #c9ebc6;
+  }
+
+.losetitle{
+ background-color: #ff0000;
+ color: white;
+}
+
+.lose{
+  background-color: #fe9980;
 }

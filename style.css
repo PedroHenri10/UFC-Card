@@ -79,7 +79,7 @@ h1{
 
 .description_card{
   margin-top: 0.7rem;
-  margin-left: 0.7rem;
+  margin-left: 1.5rem;
   display: grid;
   grid-template-columns: repeat(2, 40%);
   row-gap: 0.5rem;
@@ -88,7 +88,8 @@ h1{
 table{
   border-collapse: collapse;
   margin-top: 0.8rem;
-  margin-left: 1.7rem;
+  margin-left: 1.5rem;
+  position: relative;
   z-index: 1;
 }
 
@@ -114,4 +115,14 @@ background-color:#00ff00;
 
 .lose{
   background-color: #fe9980;
+}
+
+@media only screen and (max-width: 400px){
+  .fighter_card{
+    max-height: 420px;
+    overflow: auto;
+  }
+  table{
+    display: none;
+  }
 }

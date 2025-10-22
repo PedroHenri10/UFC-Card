@@ -117,12 +117,30 @@ background-color:#00ff00;
   background-color: #fe9980;
 }
 
-@media only screen and (max-width: 400px){
-  .fighter_card{
-    max-height: 420px;
-    overflow: auto;
+@media only screen and (max-width: 400px) {
+  .fighter_card {
+    width: 90%;
+    height: auto;
+    overflow: visible;
   }
-  table{
-    display: none;
+
+  .nickname {
+    position: static;
+    transform: none;
+    opacity: 0.3;
+    text-align: center;
+    font-size: 2rem;
+    margin: 0.5rem 0;
+  }
+
+  .fighter_img {
+    width: 150px;
+    height: auto;
+  }
+
+  table {
+    width: 100%;
+    margin: 0.5rem auto;
+    font-size: 0.8rem;
   }
 }

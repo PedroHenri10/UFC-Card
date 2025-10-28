@@ -3,10 +3,10 @@
 Este projeto é um cartão de lutador para Anderson Silva, um dos maiores nomes do MMA, desenvolvido utilizando HTML e CSS. O objetivo é criar um cartão visualmente atraente e informativo, exibindo dados relevantes sobre o lutador.
 
 ## Desktop
-**`![imagem desktop](./src/img/CardUFCDesktop.png)`**:
+![imagem desktop](./src/img/CardUFCDesktop.png)
 
 ## Mobile
-**`![imagem mobile](./src/img/CardUFCMobile.jfif)`**:
+`![imagem mobile](./src/img/CardUFCMobile.jfif)
 
 **Funcionalidades:**
 

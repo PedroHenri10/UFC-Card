@@ -6,7 +6,7 @@ Este projeto é um cartão de lutador para Anderson Silva, um dos maiores nomes 
 ![imagem desktop](src/img/CardUFCDesktop.png)
 
 ## Mobile
-![imagem mobile](src/img/CardUFCMobile.jpeg)
+![imagem mobile](src/img/CardUFCMobile.jfif)
 
 **Funcionalidades:**
 
